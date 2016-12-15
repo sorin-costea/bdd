@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "app.baseurl",
+  "type": "java.lang.String",
+  "description": "All pages will need to read 'app.baseurl' if they must navigate."
+}]}
