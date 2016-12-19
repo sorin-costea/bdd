@@ -1,5 +1,5 @@
-Feature: Directory modify test
-	Some blah description here
+Feature: Automated test
+	Using SuiteCRM online demo page, thank you SuiteCRM!
 
   Background: 
     Given I use the test user "will" with password "will" to login
