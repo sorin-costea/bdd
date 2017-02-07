@@ -5,6 +5,8 @@ Feature: Automated test
     Given I use the test user "will" with password "will" to login
   
   Scenario: Editing on the main page
-    Given I try to create a contact named "Jim Beam"
-    Then I will delete it
+    Given I create a contact named "Jim Beam 2"
+    Then the contact "Jim Beam 2" is there
+    And I will delete the current contact
+    Then the contact "Jim Beam 2" is not there anymore
 	Then I can logout, mission accomplished
