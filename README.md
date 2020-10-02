@@ -1,4 +1,4 @@
-# bdd
+# BDD
 A Cucumber-based integration test project, with Selenium page objects run by Spring Boot...
 
 Uses:
@@ -11,3 +11,4 @@ The initial description of the project can be found here:
 https://tryingthings.wordpress.com/2016/12/19/cucumber-selenium-spring-boot/
 and the lessons learned part here:
 https://tryingthings.wordpress.com/2017/02/08/part-2-cucumber-and-selenium/
+# end
